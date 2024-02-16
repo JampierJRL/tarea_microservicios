@@ -22,6 +22,7 @@ public class PersonsaServiceImpl implements PersonaServiceIn {
 
     @Override
     public Optional<PersonaDTO> obtenerPersonaIn(Long id) {
+
         return personaServiceOut.obtenerPersonaOut(id);
     }
 
